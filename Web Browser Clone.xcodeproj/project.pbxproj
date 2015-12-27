@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3DC42ED21C2F94C600037970 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC42ED11C2F94C600037970 /* AppDelegate.swift */; };
-		3DC42ED41C2F94C600037970 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC42ED31C2F94C600037970 /* ViewController.swift */; };
 		3DC42ED71C2F94C600037970 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC42ED51C2F94C600037970 /* Main.storyboard */; };
 		3DC42ED91C2F94C600037970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC42ED81C2F94C600037970 /* Assets.xcassets */; };
 		3DC42EDC1C2F94C600037970 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC42EDA1C2F94C600037970 /* LaunchScreen.storyboard */; };
 		3DC42EE71C2F94C600037970 /* Web_Browser_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC42EE61C2F94C600037970 /* Web_Browser_CloneTests.swift */; };
 		3DC42EF21C2F94C600037970 /* Web_Browser_CloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC42EF11C2F94C600037970 /* Web_Browser_CloneUITests.swift */; };
+		3DC42F001C2F94F200037970 /* WebBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC42EFF1C2F94F200037970 /* WebBrowserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		3DC42ECE1C2F94C600037970 /* Web Browser Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Web Browser Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC42ED11C2F94C600037970 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3DC42ED31C2F94C600037970 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3DC42ED61C2F94C600037970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DC42ED81C2F94C600037970 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DC42EDB1C2F94C600037970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		3DC42EED1C2F94C600037970 /* Web Browser CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Web Browser CloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC42EF11C2F94C600037970 /* Web_Browser_CloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web_Browser_CloneUITests.swift; sourceTree = "<group>"; };
 		3DC42EF31C2F94C600037970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DC42EFF1C2F94F200037970 /* WebBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebBrowserViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				3DC42ED11C2F94C600037970 /* AppDelegate.swift */,
-				3DC42ED31C2F94C600037970 /* ViewController.swift */,
+				3DC42EFF1C2F94F200037970 /* WebBrowserViewController.swift */,
 				3DC42ED51C2F94C600037970 /* Main.storyboard */,
 				3DC42ED81C2F94C600037970 /* Assets.xcassets */,
 				3DC42EDA1C2F94C600037970 /* LaunchScreen.storyboard */,
@@ -256,8 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DC42ED41C2F94C600037970 /* ViewController.swift in Sources */,
 				3DC42ED21C2F94C600037970 /* AppDelegate.swift in Sources */,
+				3DC42F001C2F94F200037970 /* WebBrowserViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
